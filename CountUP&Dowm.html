@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS variable and function</title>
+        <script>
+            let count = 0;
+
+            function countingup() {
+                count = count + 1;
+                alert(count);
+
+                if (count % 5 === 0) {
+                    alert("Congrats! Count is 5, divisible by 5!");
+                    playAudio('https://www.myinstants.com/media/sounds/emotional-damage-meme.mp3');
+                    count = 0;
+                }
+            }
+
+            function countDown() {
+                if (count > 0) {
+                    count = count - 1;
+                    alert(count);
+
+                    if (count % 5 === 0) {
+                        alert("Congrats! Count is 0, divisible by 5!");
+                        playAudio('https://www.myinstants.com/media/sounds/emotional-damage-meme.mp3');
+                        count = 0;
+                    }
+                } else {
+                    alert("Negative Number");
+                }
+            }
+
+            function playAudio(audioURL) {
+                var audio = new Audio(audioURL);
+                audio.play();
+            }
+        </script>
+    </head>
+    <body>
+        <p>We love counting !</p>
+        <button onclick="countingup()">Count UP</button>
+        <button onclick="countDown()">Count Down</button>
+    </body>
+</html>
