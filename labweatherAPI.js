@@ -1,6 +1,6 @@
 async function fetchWeather(city) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=eab19e11b8034550b2303551240202&q=${city}&days=7&aqi=no&alerts=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=eab19e11b8034550b2303551240202&q=${city}&days=7&aqi=no&alerts=no`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
