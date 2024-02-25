@@ -1,0 +1,395 @@
+.wireframe-1,
+.wireframe-1 * {
+  box-sizing: border-box;
+}
+.wireframe-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.image-2 {
+  width: 4096px;
+  height: 2731px;
+  position: absolute;
+  left: -1547px;
+  top: -815px;
+  object-fit: cover;
+}
+.l-ab-3 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 750px;
+  width: 154px;
+  height: 50px;
+}
+.line-6 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 6px 0 0 0;
+  width: 412px;
+  height: 0px;
+  position: absolute;
+  left: 501px;
+  top: 1024px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.line-7 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 501px;
+  top: 727px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-8 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 58px;
+  top: 625.25px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-9 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 488px;
+  top: 800px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-11 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 495px;
+  top: 917px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-12 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 497px;
+  top: 987px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-10 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 501px;
+  top: 860px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me {
+  color: #e56161;
+  text-align: left;
+  position: absolute;
+  left: 263px;
+  top: 81px;
+  width: 662px;
+  height: 217px;
+}
+.hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me-span {
+  color: #e56161;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+}
+.hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me-span2 {
+  color: #e56161;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.ellipse-1 {
+  width: 265px;
+  height: 284px;
+  position: absolute;
+  left: -19px;
+  top: 46.5px;
+  overflow: visible;
+}
+.programming-languages-learning {
+  color: #e56161;
+  text-align: left;
+  position: absolute;
+  left: 13px;
+  top: 525px;
+  width: 383px;
+  height: 57px;
+}
+.programming-languages-learning-span {
+  color: #e56161;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.programming-languages-learning-span2 {
+  color: #e56161;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 6px 0 0 0;
+  width: 412px;
+  height: 0px;
+  position: absolute;
+  left: 58px;
+  top: 994px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.line-2 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.05px;
+  height: 0px;
+  position: absolute;
+  left: 501px;
+  top: 662px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-3 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 301.01px;
+  height: 0px;
+  position: absolute;
+  left: 59px;
+  top: 740px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-4 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 303px;
+  height: 0px;
+  position: absolute;
+  left: 58px;
+  top: 880.49px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-5 {
+  border-style: solid;
+  border-color: #f2caca;
+  border-width: 1px 0 0 0;
+  width: 302.03px;
+  height: 0px;
+  position: absolute;
+  left: 58px;
+  top: 994px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.python {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 69px;
+  top: 587px;
+  width: 282px;
+  height: 38px;
+}
+.ht-ml {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 69px;
+  top: 703px;
+  width: 259px;
+  height: 64px;
+}
+.c {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 69px;
+  top: 843px;
+  width: 229px;
+  height: 37px;
+}
+.javascript {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 69px;
+  top: 956px;
+  width: 177px;
+  height: 38px;
+}
+.rectangle-1 {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 1264px;
+  top: 948px;
+  object-fit: cover;
+}
+.arshpreet-virk {
+  color: #000000;
+  text-align: left;
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1299px;
+  top: 954px;
+  width: 141px;
+  height: 21px;
+}
+.transparent-github-icon-black-and-white-hexagonal-image-with-fw-65-cb-0-d-525-a-3253-1 {
+  width: 27px;
+  height: 28.62px;
+  position: absolute;
+  left: 1264px;
+  top: 982px;
+  object-fit: cover;
+}
+.https-github-com-arsh-20004 {
+  color: #000000;
+  text-align: left;
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1298px;
+  top: 982px;
+  width: 142px;
+  height: 34px;
+}
+.image-1 {
+  border-radius: 39px;
+  width: 233px;
+  height: 315px;
+  position: absolute;
+  left: -3px;
+  top: 16px;
+  object-fit: cover;
+}
+.c-omp-165-labs {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 232px);
+  top: 550px;
+  width: 437px;
+  height: 62px;
+}
+.l-ab-1 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 612px;
+  width: 154px;
+  height: 50px;
+}
+.l-ab-2 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 677px;
+  width: 154px;
+  height: 50px;
+}
+.l-ab-4 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 810px;
+  width: 154px;
+  height: 50px;
+}
+.l-ab-6 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 934px;
+  width: 154px;
+  height: 50px;
+}
+.l-ab-5 {
+  color: #e56161;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 508px;
+  top: 867px;
+  width: 154px;
+  height: 50px;
+}
