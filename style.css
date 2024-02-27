@@ -1,61 +1,58 @@
-.wireframe-1,
-.wireframe-1 * {
+.slide-16-9-1,
+.slide-16-9-1 * {
   box-sizing: border-box;
+}
+.slide-16-9-1 {
+  background: #ffffff;
+  height: 1920px;
+  position: relative;
+  overflow: hidden;
 }
 .wireframe-1 {
   background: #ffffff;
-  height: 1024px;
-  position: relative;
+  width: 1920px;
+  height: 2622px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   overflow: hidden;
 }
 .image-2 {
   width: 4096px;
-  height: 2731px;
+  height: 3532px;
   position: absolute;
-  left: -1547px;
-  top: -815px;
+  left: -1604px;
+  top: -98px;
   object-fit: cover;
-}
-.l-ab-3 {
-  color: #e56161;
-  text-align: left;
-  font-family: "Koulen-Regular", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  position: absolute;
-  left: 508px;
-  top: 750px;
-  width: 154px;
-  height: 50px;
 }
 .line-6 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 6px 0 0 0;
   width: 412px;
   height: 0px;
   position: absolute;
-  left: 501px;
-  top: 1024px;
+  left: 58px;
+  top: 1782px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
 }
 .line-7 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 501px;
-  top: 727px;
+  left: 54px;
+  top: 1539px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .line-8 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
@@ -67,69 +64,69 @@
 }
 .line-9 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: rgba(40, 8, 232, 0.79);
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 488px;
-  top: 800px;
+  left: 54px;
+  top: 1480px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .line-11 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 495px;
-  top: 917px;
+  left: 54px;
+  top: 1656px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .line-12 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 497px;
-  top: 987px;
+  left: 54px;
+  top: 1727px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .line-10 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 501px;
-  top: 860px;
+  left: 54px;
+  top: 1597px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   position: absolute;
-  left: 263px;
-  top: 81px;
-  width: 662px;
+  left: 361px;
+  top: 94px;
+  width: 753px;
   height: 217px;
 }
 .hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me-span {
-  color: #e56161;
+  color: #2808e8;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 27px;
   font-weight: 400;
 }
 .hi-i-am-arshpreet-singh-virk-from-punjab-india-i-am-currently-an-international-student-in-canada-studying-associate-of-science-in-capilano-university-i-am-very-passionate-about-computers-and-how-computers-work-i-am-always-curious-to-know-more-and-more-about-these-things-and-thats-about-me-span2 {
-  color: #e56161;
+  color: #2808e8;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -138,12 +135,12 @@
   width: 265px;
   height: 284px;
   position: absolute;
-  left: -19px;
-  top: 46.5px;
+  left: -2px;
+  top: 39px;
   overflow: visible;
 }
 .programming-languages-learning {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   position: absolute;
   left: 13px;
@@ -152,20 +149,20 @@
   height: 57px;
 }
 .programming-languages-learning-span {
-  color: #e56161;
+  color: #2808e8;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 30px;
   font-weight: 400;
 }
 .programming-languages-learning-span2 {
-  color: #e56161;
+  color: #2808e8;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 .line-1 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 6px 0 0 0;
   width: 412px;
   height: 0px;
@@ -178,19 +175,19 @@
 }
 .line-2 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.05px;
   height: 0px;
   position: absolute;
-  left: 501px;
-  top: 662px;
+  left: 54px;
+  top: 1412px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .line-3 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 301.01px;
   height: 0px;
@@ -202,7 +199,7 @@
 }
 .line-4 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 303px;
   height: 0px;
@@ -214,7 +211,7 @@
 }
 .line-5 {
   border-style: solid;
-  border-color: #f2caca;
+  border-color: #2808e8;
   border-width: 1px 0 0 0;
   width: 302.03px;
   height: 0px;
@@ -225,7 +222,7 @@
   transform: rotate(0deg) scale(1, 1);
 }
 .python {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 30px;
@@ -237,7 +234,7 @@
   height: 38px;
 }
 .ht-ml {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 30px;
@@ -249,7 +246,7 @@
   height: 64px;
 }
 .c {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 30px;
@@ -261,7 +258,7 @@
   height: 37px;
 }
 .javascript {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 30px;
@@ -272,32 +269,12 @@
   width: 177px;
   height: 38px;
 }
-.rectangle-1 {
-  width: 27px;
-  height: 27px;
-  position: absolute;
-  left: 1264px;
-  top: 948px;
-  object-fit: cover;
-}
-.arshpreet-virk {
-  color: #000000;
-  text-align: left;
-  font-family: "Abel-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 1299px;
-  top: 954px;
-  width: 141px;
-  height: 21px;
-}
 .transparent-github-icon-black-and-white-hexagonal-image-with-fw-65-cb-0-d-525-a-3253-1 {
   width: 27px;
   height: 28.62px;
   position: absolute;
-  left: 1264px;
-  top: 982px;
+  left: 1065px;
+  top: 1863px;
   object-fit: cover;
 }
 .https-github-com-arsh-20004 {
@@ -307,89 +284,100 @@
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 1298px;
-  top: 982px;
+  left: 1095px;
+  top: 1863px;
   width: 142px;
   height: 34px;
 }
-.image-1 {
-  border-radius: 39px;
-  width: 233px;
-  height: 315px;
-  position: absolute;
-  left: -3px;
-  top: 16px;
-  object-fit: cover;
-}
-.c-omp-165-labs {
-  color: #e56161;
+.comp-165-labs {
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 232px);
-  top: 550px;
+  left: calc(50% - 902px);
+  top: 1297px;
   width: 437px;
   height: 62px;
 }
 .l-ab-1 {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 508px;
-  top: 612px;
+  left: 65px;
+  top: 1359px;
   width: 154px;
   height: 50px;
 }
 .l-ab-2 {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 508px;
-  top: 677px;
+  left: 65px;
+  top: 1421px;
+  width: 154px;
+  height: 50px;
+}
+.l-ab-3 {
+  color: #2808e8;
+  text-align: left;
+  font-family: "Koulen-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 65px;
+  top: 1480px;
   width: 154px;
   height: 50px;
 }
 .l-ab-4 {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 508px;
-  top: 810px;
+  left: 65px;
+  top: 1539px;
   width: 154px;
   height: 50px;
 }
 .l-ab-6 {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 508px;
-  top: 934px;
+  left: 65px;
+  top: 1668px;
   width: 154px;
   height: 50px;
 }
 .l-ab-5 {
-  color: #e56161;
+  color: #2808e8;
   text-align: left;
   font-family: "Koulen-Regular", sans-serif;
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 508px;
-  top: 867px;
+  left: 65px;
+  top: 1602px;
   width: 154px;
   height: 50px;
+}
+.arshh-1 {
+  width: 313px;
+  height: 241px;
+  position: absolute;
+  left: -67px;
+  top: 57px;
+  object-fit: cover;
 }
