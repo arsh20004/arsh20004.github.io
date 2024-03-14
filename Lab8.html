@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Website</title>
+    <style>
+        .fruit {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+      <script src="lab8.js"></script> 
+</head>
+<body>
+    <h2>Simple E-Commerce Website</h2>
+
+    <div class="products">
+        <div class="fruit" id="apple">
+            <h3>Apples</h3>
+            <p>Price (each): $2</p>
+            <button class="add-to-cart" data-product="Apple" data-price="2">Add to Cart</button>
+        </div>
+        <div class="fruit" id="pineapple">
+            <h3>Pineapples</h3>
+            <p>Pric1e (each): $5</p>
+            <button class="add-to-cart" data-product="Pineapple" data-price="5">Add to Cart</button>
+        </div>
+        <div class="fruit" id="durian">
+            <h3>Durians</h3>
+            <p>Price: $200</p>
+            <button class="add-to-cart" data-product="Durian" data-price="200">Add to Cart</button>
+        </div>
+    </div>
+
+    <h2>Shopping Cart (<span id="cartCount">0</span>)</h2>
+    <div id="cartDetails">
+        <ul id="cart"></ul>
+        <p id="totalPrice">Total Price: $0</p>
+    </div>
+
+    <button id="showHideCart">Show/Hide Cart Details</button>
+    <button id="submit">Submit Order</button> <!--Add features for submit button-->
+
+    <script src="lab8.js"></script> 
+</body>
+</html>
