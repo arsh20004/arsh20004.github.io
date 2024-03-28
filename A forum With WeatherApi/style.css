@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    
+  background-image: url("img1.jpg");
+    
+  }
+  
+  #header {
+    font-family: 'Arial', sans-serif;
+    font: #3b5998;
+    color: hsl(0, 0%, 20%);
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    background-image: url("img1.jpg");
+   
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 20%); /* You can adjust the color as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing for a stylish look */
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+
+  #container {
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-end; /* Align items to the end of the container (right side) */
+    max-width: 800px;
+    margin: auto;
+    padding-left: 220px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    background-image: url("im2.jpg");
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    background-image: url("im2.jpg")
+   
+  }
+  
+  .post:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .post h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  #message {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    resize: none;
+  }
+  
+  #username,
+  #message {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  #username:focus,
+  #message:focus {
+    outline: none;
+    border-color: #3b5998;
+  }
+  
+  button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2d4373;
+  }
+  
+  /* CSS to ensure images are displayed in posts */
+  .post img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post img:hover {
+    transform: scale(1.1);
+    /* Zoom in effect on image hover */
+  }
+  #form-label{
+    font-family: Arial, sans-serif;
+    color: #333; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+  }
+  .weather-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #479bd7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure it's above other content */
+    background-image: url("im2.jpg");
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .weather-container h3 {
+    margin-top: 0;
+  }
+  
