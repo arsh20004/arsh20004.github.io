@@ -1,0 +1,86 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 56%;
+
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    html {
+        font-size: 40%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+
+}
+
+.main_container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.introduction{
+    padding: 20px;
+
+}
+input[type="text"] {
+    width: 40%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
