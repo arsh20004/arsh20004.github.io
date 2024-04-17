@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head lang="en">
+	<!-- TAGS -->
+	<title>Reddit</title>
+	<meta name="description" content="A Reddit clone made by Prozilla powered by the Reddit API. Add your favourite subreddits, choose a sort option and start browsing your custom feed!">
+
+	<!-- STYLE -->
+	<link rel="stylesheet" href="css/style.css">
+	<script rel="preconnect" src="https://kit.fontawesome.com/241f6baf1e.js" crossorigin="anonymous"></script>
+
+
+	<!-- REACT (use different sources in production) -->
+	<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+	<!-- SCRIPTS -->
+	<script src="js/loader.js"></script>
+	<script src="js/index2.js" type="text/babel" data-type="module"></script>
+	<script src="js/post.js" type="module"></script>
+	
+</head>
+<body>
+	
+	<header>
+		<a id="logo" href="/">
+			<img src="media/Dragon.svg">
+		</a>
+		<h1 id="page-title">Reddit</h1>
+	
+		<!-- search -->
+		<div id="search-bar">
+			<i class="fas fa-search"></i>
+			<input class="input" type="text" placeholder="Search Reddits">
+			<div id="search-results"></div>
+		</div>
+		<div id="subreddit-options" class="button-group">
+							<button class="button" onclick="showFeedName()">Save feed </button>
+							<button class="button" onclick="showCustomFeedList()">Load feed</button>
+							<input id="feed-name" class="input" type="text" placeholder="Enter a feed name">
+						</div>
+	
+		<i id="side-menu-toggle" class="fas fa-bars" onclick="toggleSideMenu()"></i>
+	</header>
+	
+	<!-- page -->
+	<main id="page-content">
+		
+			<iframe src="m.html" frameborder="0" scrolling="auto" width="100%" height="1000"></iframe>
+
+		<!-- scroll up -->
+		<div id="Scroll">
+		<a id="scroll-up" class="button" onclick="scrollToTop()">
+			<i class="fas fa-rocket"></i>
+			<p>Scroll to top</p>
+		</a>
+	</div>
+
+		<!-- post viewer -->
+		<div id="post-viewer">
+			
+
+		</div>
+		<section id="POSTS">
+		<div class="post">
+			<img id="tag" src="/media/tag.png">
+			<div class="mb-3"> 
+			  <!-- FORM -->
+			  <label for="exampleFormControlInput1"  class="form-label">Your Name</label>
+			  <input type="text" class="form-control" id="username" placeholder="What is your name?">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleFormControlTextarea1" class="form-label">What's on your mind?</label>
+			  <textarea class="form-control" id="message" rows="3"></textarea>
+			</div>
+		   <!-- input for image -->
+			<div class="mb-3">
+			  <label for="formFile" class="form-label">Choose a Image</label>
+			  <input class="form-control" type="file" id="photo" />
+			</div>
+			
+			<button onclick="sendMessage()" type="button" class="btn btn-primary btn-lg">Post</button>
+	  
+		  
+		  
+		  <div id="messages"></div>
+		</div>
+	  
+		  </div> 
+		</section>
+	  
+	</main>
+</body>

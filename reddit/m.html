@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        * {
+            margin: 0px 0px;
+            padding: 0px 0px;
+            box-sizing: border-box;
+        }
+        #heading {
+            font-family: 'Playball', cursive, Arial, Helvetica, sans-serif;
+            font-size: 120px;
+            width: 553px;
+            margin: auto;
+            color: aqua;
+        }
+        #box{
+            width :55%;
+            height : 480px;
+            margin: auto;
+            border: 4px solid rgb(255, 37, 226);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        #btn{
+            margin: auto;
+            width: 100px;
+        }
+        #nextBtn{
+            margin-top: 9px;
+            height: 45px;
+            width: 100px;
+            background-color: aquamarine;
+            color: #000;
+            font-size: 35px;
+            font-weight: bolder;
+            border-radius: 15px;
+            border: 3px solid red;
+        }
+        #nextBtn:hover{
+            cursor:pointer;
+        }
+        img{
+            color: wheat;
+            width: 100%;
+            height: 100%;
+        }
+        @media only screen and (max-width:666px) {
+            #heading {
+                font-size: 70px;
+                width: 322px;
+            }
+            #box{
+            width :90%;
+        }
+        }
+        @media only screen and (max-width:1000px) {
+            #box{
+            width :70%;
+        }
+        @media only screen and (max-width:780px) {
+            #box{
+            width: 85%;
+        }
+        }
+        @media only screen and (max-width:500px) {
+            #box{
+            width: 95%;
+        }
+        }
+        @media only screen and (max-width:320px) {
+            #box{
+            width: 97%;
+            height : 400px;
+        }
+        #heading {
+                font-size: 60px;
+                width: 278px;
+            }
+        }
+    </style>
+    <script>
+  function nextMeme() {
+    let img = document.getElementById("memeImg");
+    fetch("https://meme-api.com/gimme")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then(data => {
+        let temp = data.preview;
+        temp = temp[temp.length - 1];
+        img.src = temp;
+      })
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+      });
+  }
+</script>
+
+<body>
+    <div id="heading">Elite Memes</div>
+    <div id="box">
+        <img src="/media/01_OPENER-Final.jpg" alt="Click Next To See Memes" id="memeImg">
+    </div>
+    <div id="btn"><button id="nextBtn" onclick="nextMeme()">Next</button> </div>
+</body>
+
+</html>
